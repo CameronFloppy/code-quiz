@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main h1 {
+    font-size: 25px;
+    color: blue;
+}
+
+main ul {
+    list-style: none;
+    margin-right: 150px;
+}
+
+main ul li {
+    padding: 5px;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: pink;
+}
